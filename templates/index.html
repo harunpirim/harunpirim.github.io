@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{siteTitle}}</title>
+    <link rel="stylesheet" href="{{baseUrl}}/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="{{baseUrl}}/">{{siteTitle}}</a>
+        <nav class="nav">
+          <a href="{{baseUrl}}/topics/">Topics</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <h1>{{siteTitle}}</h1>
+        <p class="lead">Thoughts organized by topic and hashtag.</p>
+      </section>
+      <section class="section">
+        <h2>Latest</h2>
+        <ul class="post-list">
+          {{latest}}
+        </ul>
+      </section>
+      <section class="section">
+        <h2>Topics</h2>
+        <ul class="topics-list">
+          {{topics}}
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

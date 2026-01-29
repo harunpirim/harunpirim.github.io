@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{title}} | {{siteTitle}}</title>
+    <link rel="stylesheet" href="{{baseUrl}}/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="{{baseUrl}}/">{{siteTitle}}</a>
+        <nav class="nav">
+          <a href="{{baseUrl}}/topics/">Topics</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <article class="post">
+        <h1>{{title}}</h1>
+        <p class="meta">
+          {{date}} ·
+          <a href="{{baseUrl}}/topics/{{topicSlug}}/">{{topicLabel}}</a>
+        </p>
+        <div class="post-content">
+          {{content}}
+        </div>
+        <div class="post-tags">
+          {{tags}}
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

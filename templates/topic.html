@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{topicLabel}} | {{siteTitle}}</title>
+    <link rel="stylesheet" href="{{baseUrl}}/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="{{baseUrl}}/">{{siteTitle}}</a>
+        <nav class="nav">
+          <a href="{{baseUrl}}/topics/">Topics</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="topic">
+        <h1>{{topicLabel}}</h1>
+        <p class="meta">{{topicCount}} posts</p>
+        <ul class="post-list">
+          {{articles}}
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
