@@ -27,3 +27,5 @@ console.log("Hello!");
 #Love 
 
 Lets see if this is working
+
+I am grateful for what I am given. Life is manifested every moment. 

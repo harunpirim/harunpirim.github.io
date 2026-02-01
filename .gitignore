@@ -13,6 +13,10 @@
 !.github/
 !.github/**
 
+# Local automation (kept out of the repo)
+auto-push.sh
+auto-push.log
+
 **/.DS_Store
 **/.env
 **/.env.*
